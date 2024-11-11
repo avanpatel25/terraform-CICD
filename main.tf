@@ -1,4 +1,4 @@
-resource "google_storage_bucket" "cicd0626-gke-bucket" {
+resource "google_storage_bucket" "cicd0626_gke_bucket" {
   name          = var.bucket_name
   location = "US"
   project = var.project
