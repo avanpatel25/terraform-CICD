@@ -30,9 +30,6 @@ jobs:
         workload_identity_provider: 'projects/300069127181/locations/global/workloadIdentityPools/github-demo-pool/providers/github' 
         service_account:  'sa-terraform-new-practise@cicd0626.iam.gserviceaccount.com'
 
-
-
-
     - name: Terraform Init
       run: terraform init
 
