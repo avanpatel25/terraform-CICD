@@ -1,8 +1,8 @@
-
-resource "google_storage_bucket" "my-bucket-avan" {
-  name          = "bkt-demo-000"
-  location      = "US"
+resource "google_storage_bucket" "cicd_bucket" {
+  name     = "cicd0626-gke-bucket-${var.project_id}"
+  location = "US"
   project = var.project
   force_destroy = true
   public_access_prevention = "enforced"
+  
 }
