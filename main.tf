@@ -1,5 +1,5 @@
-resource "google_storage_bucket" "cicd0626_gke_bucket" {
-  name          = var.bucket_name
+resource "google_storage_bucket" "my-bucket" {
+  name          = "bkt-demo-000"
   location = "US"
   project = var.project
   force_destroy = true
