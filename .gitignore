@@ -4,3 +4,5 @@
 env/dev .terraform
 env/dev .terraform.lock.hcl
 env/dev .terraform.tfvars
+modules/api .terraform
+modules/api .terraform.lock.hcl

@@ -6,3 +6,8 @@ resource "google_storage_bucket" "cicd_bucket" {
   public_access_prevention = "enforced"
   
 }
+
+
+module "api" {
+  source = "../../../modules/api"
+}
