@@ -11,5 +11,5 @@ variable "project" {
 
 variable "zone" {
   type = string
-  description = "Location of the Google Storage bucket"
+  description = "Location of the Google Storage bucket creared with master"
 }
