@@ -1,3 +1,4 @@
+
 resource "google_storage_bucket" "cicd_bucket" {
   name     = "cicd0626-gke-bucket-${var.project}"
   location = "US"
