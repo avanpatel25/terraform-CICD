@@ -1,3 +1,6 @@
 .terraform.lock.hcl
 .terraform/
 .*terraform.tfvars
+env/dev .terraform
+env/dev .terraform.lock.hcl
+env/dev .*terraform.tfvars
